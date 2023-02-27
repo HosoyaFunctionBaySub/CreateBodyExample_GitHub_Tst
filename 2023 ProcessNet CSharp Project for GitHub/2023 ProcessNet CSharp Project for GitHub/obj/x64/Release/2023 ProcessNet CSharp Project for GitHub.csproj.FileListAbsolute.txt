@@ -1,0 +1,6 @@
+C:\Users\hosoya.FBJ\Desktop\2023 ProcessNet CSharp Project for GitHub\2023 ProcessNet CSharp Project for GitHub\bin\x64\Release\2023 ProcessNet CSharp Project for GitHub.dll
+C:\Users\hosoya.FBJ\Desktop\2023 ProcessNet CSharp Project for GitHub\2023 ProcessNet CSharp Project for GitHub\bin\x64\Release\2023 ProcessNet CSharp Project for GitHub.pdb
+C:\Users\hosoya.FBJ\Desktop\2023 ProcessNet CSharp Project for GitHub\2023 ProcessNet CSharp Project for GitHub\obj\x64\Release\2023 ProcessNet CSharp Project for GitHub.csprojAssemblyReference.cache
+C:\Users\hosoya.FBJ\Desktop\2023 ProcessNet CSharp Project for GitHub\2023 ProcessNet CSharp Project for GitHub\obj\x64\Release\2023 ProcessNet CSharp Project for GitHub.csproj.CoreCompileInputs.cache
+C:\Users\hosoya.FBJ\Desktop\2023 ProcessNet CSharp Project for GitHub\2023 ProcessNet CSharp Project for GitHub\obj\x64\Release\2023 ProcessNet CSharp Project for GitHub.dll
+C:\Users\hosoya.FBJ\Desktop\2023 ProcessNet CSharp Project for GitHub\2023 ProcessNet CSharp Project for GitHub\obj\x64\Release\2023 ProcessNet CSharp Project for GitHub.pdb

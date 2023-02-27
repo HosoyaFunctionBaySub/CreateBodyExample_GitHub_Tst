@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4ECD112-A9C2-4BF9-8BB2-3E4FF1E232EF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_2023_ProcessNet_CSharp_Project_for_GitHub</RootNamespace>
+    <AssemblyName>2023 ProcessNet CSharp Project for GitHub</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.BNP, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.Chain, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.Chart, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.Control, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.Durability, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.FFlex, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.Flexible, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.FlexInterface, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.MTT2D, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.MTT3D, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.RecurDyn, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.RFlex, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.Tire, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.ToolkitCommon, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.TrackHM, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.TrackLM, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.ParticleInterface, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.RecurDyn.ProcessNet.MMS, Version=10.1.0.0, Culture=neutral, PublicKeyToken=0fd9955ddee0e7a9, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FunctionBay.Post.ProcessNet.Interface, Version=10.1.0.0, Culture=neutral, PublicKeyToken=c601c36bdb89c131, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ThisApplication.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

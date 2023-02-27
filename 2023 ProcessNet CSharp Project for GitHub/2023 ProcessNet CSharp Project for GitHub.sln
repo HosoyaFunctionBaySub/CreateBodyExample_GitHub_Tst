@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2023 ProcessNet CSharp Project for GitHub", "2023 ProcessNet CSharp Project for GitHub\2023 ProcessNet CSharp Project for GitHub.csproj", "{B4ECD112-A9C2-4BF9-8BB2-3E4FF1E232EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4ECD112-A9C2-4BF9-8BB2-3E4FF1E232EF}.Debug|x64.ActiveCfg = Debug|x64
+		{B4ECD112-A9C2-4BF9-8BB2-3E4FF1E232EF}.Debug|x64.Build.0 = Debug|x64
+		{B4ECD112-A9C2-4BF9-8BB2-3E4FF1E232EF}.Release|x64.ActiveCfg = Release|x64
+		{B4ECD112-A9C2-4BF9-8BB2-3E4FF1E232EF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDB3EB3F-71D9-4E71-BD9D-19B0C25CD413}
+	EndGlobalSection
+EndGlobal
