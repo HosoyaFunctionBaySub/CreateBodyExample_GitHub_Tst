@@ -47,6 +47,9 @@ namespace _2023_ProcessNet_CSharp_Project_for_GitHub
             IReferenceFrame refFrame3 = modelDocument.CreateReferenceFrame();
             refFrame3.SetOrigin(100, 200, 0);
 
+            IReferenceFrame refFrame4 = modelDocument.CreateReferenceFrame();
+            refFrame3.SetOrigin(300, 200, 0);
+
             IBody body1 = model.CreateBodyBox("body1", refFrame1, 150, 100, 100);
             application.PrintMessage(body1.Name);
 
@@ -54,6 +57,8 @@ namespace _2023_ProcessNet_CSharp_Project_for_GitHub
             application.PrintMessage(body2.Name);
 
             IBody body3 = model.CreateBodyCylinder("nody3", refFrame3, 100, 100);
+
+            IBody body4 = model.CreateBodyCylinder("nody4", refFrame4, 100, 100);
 
         }
 
