@@ -44,11 +44,17 @@ namespace _2023_ProcessNet_CSharp_Project_for_GitHub
             refFrame2 = modelDocument.CreateReferenceFrame();
             refFrame2.SetOrigin(0, 200, 0);
 
+            IReferenceFrame refFrame3 = modelDocument.CreateReferenceFrame();
+            refFrame3.SetOrigin(100, 200, 0);
+
             IBody body1 = model.CreateBodyBox("body1", refFrame1, 150, 100, 100);
             application.PrintMessage(body1.Name);
 
             IBody body2 = model.CreateBodySphere("body2", refFrame2, 50);
             application.PrintMessage(body2.Name);
+
+            IBody body3 = model.CreateBodyCylinder("nody3", refFrame3, 100, 100);
+
         }
 
         #region Common Variables
